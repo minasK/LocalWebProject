@@ -23,3 +23,8 @@ print(response.text)
 # which we can access using the text attribute. In this example, we simply print the response text to the console.
 
 # Note that requests is a third-party library and needs to be installed before it can be used.
+
+
+# note!!! for sending to github -> go to commit -> changes are the new changed files, select them -> write a comment
+# of what changed above commit and commit and psh -> commit and push and commit to the project name of the GitHub, and
+# it is over.
