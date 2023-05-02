@@ -27,7 +27,7 @@ with socketserver.TCPServer(("linuxas", PORT), Handler) as httpd:
 # you need a more advanced web server, you may want to consider using a third-party library or framework,
 # such as Flask or Django.
 
-# This code creates a web server that listens on port 8000 and serves files from the current working directory. When
+# This code creates a web server  that listens on port 8000 and serves files from the current working directory. When
 # you run this code, you should see a message in the console indicating that the server is running. You can then open
 # a web browser and navigate to http://linuxas:8000 to see the files being served. Before it was localhost instead of
 # linuxas
