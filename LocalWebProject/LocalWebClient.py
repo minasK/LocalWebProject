@@ -13,7 +13,7 @@
 
 import requests
 
-url = "https://www.example.com"
+url = "http://linuxas:8000/"
 response = requests.get(url)
 
 print(response.text)

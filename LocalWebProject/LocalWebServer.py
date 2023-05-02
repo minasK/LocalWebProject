@@ -15,13 +15,13 @@ PORT = 8000
 
 Handler = http.server.SimpleHTTPRequestHandler
 
-with socketserver.TCPServer(("", PORT), Handler) as httpd:
+with socketserver.TCPServer(("linuxas", PORT), Handler) as httpd:
     print("Serving at port", PORT)
     httpd.serve_forever()
 
 # In this example, we create a new TCP server on port 8000 that serves files from the current directory using the
 # SimpleHTTPRequestHandler class from the http.server module. When you run this code, you can access the files served
-# by the server by opening a web browser and navigating to http://localhost:8000/.
+# by the server by opening a web browser and navigating to http://linuxas:8000/.
 
 # Note that this is a very basic example of a local web server and should not be used in production environments. If
 # you need a more advanced web server, you may want to consider using a third-party library or framework,
@@ -29,4 +29,7 @@ with socketserver.TCPServer(("", PORT), Handler) as httpd:
 
 # This code creates a web server that listens on port 8000 and serves files from the current working directory. When
 # you run this code, you should see a message in the console indicating that the server is running. You can then open
-# a web browser and navigate to http://localhost:8000 to see the files being served.
+# a web browser and navigate to http://linuxas:8000 to see the files being served. Before it was localhost instead of
+# linuxas
+
+
