@@ -13,12 +13,12 @@
 
 import requests
 
-url = "http://linuxas:8000/"
+url = "http://192.168.1.2:8000/"
 response = requests.get(url)
 
 print(response.text)
 
-# In this code, we first  import the requests' library. We then define a URL to fetch data from and make a GET request
+# kk In this code, we first  import the requests' library. We then define a URL to fetch data from and make a GET request
 # using requests.get(). The response object returned by requests.get() contains the data returned by the server,
 # which we can access using the text attribute. In this example, we simply print the response text to the console.
 
